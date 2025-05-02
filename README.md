@@ -69,7 +69,7 @@ The script expects four arguments: width, height, length, and mass, in that orde
 Example command:
 
 ```bash
-python run_sort.py 100 100 101 21
+python src/sort_packages.py 100 100 101 21
 ```
 
 This will print the result of the sort_packages function based on the provided package dimensions and mass. For example, it will print "REJECTED" if the package is both bulky and heavy.
