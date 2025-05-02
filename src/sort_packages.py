@@ -9,7 +9,3 @@ def sort_packages(width, height, length, mass):
         return "SPECIAL"
 
     return "STANDARD"
-
-if __name__ == "__main__":
-    params = [int(arg) for arg in sys.argv[1:]]
-    print(sort_packages(*params))

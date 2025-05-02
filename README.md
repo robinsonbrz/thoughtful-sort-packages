@@ -51,13 +51,19 @@ pip install -r requirements.txt
 
 This will install the necessary packages, such as pytest for running the tests.
 
-## Running the Tests
-To ensure everything is working correctly, you can run the tests using pytest. From the project directory, execute:
+## Running the Coverage Tests
+To ensure everything is working correctly, you can run the tests using pytest and coverage. From the project directory, execute:
 
 ```bash
-pytest .
+pytest --cov=src tests/
 ```
-This will run all the test cases and display the results.
+This will run all the test cases and display the coverage results.
+
+```bash
+pytest pytest .
+```
+This will run all the test cases.
+
 
 ## Command-Line Usage
 You can also run the script directly from the command line by passing the dimensions and mass as arguments.
@@ -69,7 +75,7 @@ The script expects four arguments: width, height, length, and mass, in that orde
 Example command:
 
 ```bash
-python src/sort_packages.py 100 100 101 21
+python src/main.py 100 100 101 21
 ```
 
 This will print the result of the sort_packages function based on the provided package dimensions and mass. For example, it will print "REJECTED" if the package is both bulky and heavy.
