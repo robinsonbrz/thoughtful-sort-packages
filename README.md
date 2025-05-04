@@ -1,12 +1,16 @@
 # Sort Packages - Automation System
 
+[![thoughtful.ai](generated-icon.png)](https://replit.com/join/kgkwrktfss-robinsonbrz)
+
 This project contains a function that sorts packages based on their dimensions and mass. It is designed for an automation system where packages need to be dispatched to different stacks based on specific criteria.
+
+The project also includes a pytest file to ensure the sorting logic works correctly through automated tests.
 
 [Replit project link](https://replit.com/join/kgkwrktfss-robinsonbrz)
 
 ## Objective
 
-The goal of this system is to classify packages into three categories:
+The goal of this method is to classify packages into three categories:
 
 - **STANDARD**: For packages that are neither bulky nor heavy. These can be handled normally.
 - **SPECIAL**: For packages that are either bulky or heavy. These require special handling.
